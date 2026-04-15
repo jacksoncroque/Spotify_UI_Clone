@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  background-color: var(--navbar-background-color);
+
+  & > nav {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    margin: 0 0.5rem 0 1rem;
+    font-size: .875rem;
+  }
+
+  &Logo {
+    margin: 0 1.75rem 0 .75rem;
+    
+    &Link {
+      display: block;
+      width: fit-content;
+
+      & > img {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  &Search {
+    display: flex;
+    align-items: center;
+    flex: 4;
+        
+    &Link {
+      background-color: var(--icon-background-color);
+      display: flex;
+      width: 3rem;
+      height: 3rem;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      transition:
+        scale 0.3s ease-in-out,
+        background-color 0.5s ease-in-out;
+      transform: scale(1);
+
+      &:hover {
+        background-color: var(--icon-background-color-hover);
+        transform: scale(1.1);
+      }
+
+      & > img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+
+  &Links {
+    display: flex;
+    flex: 5;
+    justify-content: end;
+  }
+}

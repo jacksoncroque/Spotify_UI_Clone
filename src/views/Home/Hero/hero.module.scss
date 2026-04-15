@@ -1,0 +1,43 @@
+.container {
+  background-image: linear-gradient(90deg, #af2896, #509bf5);
+  border-radius: 0.5rem;
+  display: flex;
+  height: 4.125rem;
+  margin: 0 0.5rem 0.5rem;
+  padding: 0.68rem 1.5rem 0.43rem 0.93rem;
+  cursor: pointer;
+  justify-content: space-between;
+
+  &Text {
+    color: #fff;
+
+    & > p:first-of-type {
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.87rem;
+      margin: 0 0 0.3rem 0;
+    }
+
+    & > p:last-of-type {
+      color: #fff;
+      font-weight: 400;
+      font-size: 0.87rem;
+    }
+  }
+
+  & > button {
+    border-radius: 9999px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    transition:
+      transform 0.3s ease-in,
+      opacity 0.3s ease-in;
+  }
+
+  & > button:hover {
+    transform: scale(1.03);
+    opacity: 0.75;
+  }
+}

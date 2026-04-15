@@ -1,0 +1,25 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --navbar-background-color: #000;
+  --icon-background-color: #1f1f1f;
+  --icon-background-color-hover: #434343;
+  --color-text: #b3b3b3;
+  --icon-color: #b3b3b3;
+  --icon-color-hover: #dfdfdf;
+  --main-background-color: #121212;
+  --banner-image-width: 9.7rem;
+  --banner-image-height: 9.7rem;
+  --banner-image-border: .37rem;
+  --card-banner-width: 12.25rem;
+  --card-banner-height: 18.37rem;
+}
+
+* {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.swiper {
+  width: 100%;
+}

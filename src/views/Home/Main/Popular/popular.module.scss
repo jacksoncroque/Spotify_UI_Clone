@@ -1,0 +1,79 @@
+.container {
+  width: calc(100% + 5rem);
+
+  &Main {
+    &Swipper {
+      transform: translateX(-0.8rem);
+    }
+
+    &Image {
+      color: var(--color-text);
+      font-size: 0.8rem;
+      font-weight: 400;
+      width: var(--card-banner-width);
+      height: var(--card-banner-height);
+      padding: 1rem 0.7rem;
+      cursor: pointer;
+      transition: background-color 0.15s ease-in;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #1f1f1f;
+      }
+
+      & > img {
+        width: 10.25rem;
+        height: 10.25rem;
+        border-radius: 100%;
+        margin: 0 auto 1rem;
+        object-fit: cover;
+      }
+
+      & > h3 {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+
+      & > p {
+        margin: 0.5rem 0 0;
+      }
+    }
+
+    &Text {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem 0 0;
+      align-items: baseline;
+
+      & > span {
+        color: var(--color-text);
+        font-size: 0.875rem;
+        cursor: pointer;
+        font-weight: 700;
+        transform: translateX(-5rem);
+      }
+
+      & > span:hover {
+        text-decoration: underline;
+      }
+
+      & > a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        font-weight: 700;
+      }
+
+      & > a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.slide {
+  width: 12.25rem !important;
+  overflow: hidden;
+}

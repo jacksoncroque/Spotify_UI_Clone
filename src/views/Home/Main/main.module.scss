@@ -1,0 +1,41 @@
+.container {
+  background-color: var(--main-background-color);
+  flex: 4.7;
+  min-height: 0;
+  height: calc(100vh - 66px - 4rem - 1rem);
+  margin: 0 0.5rem 0.5rem 0.25rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 8px; // largura do scroll
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent; // fundo
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+  }
+
+  &:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+  }
+
+  &Main {
+    width: 100%;
+
+    &Popular {
+      width: 100%;
+    }
+  }
+}

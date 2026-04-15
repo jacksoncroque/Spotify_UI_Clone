@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  & > span {
+    background-color: var(--color-text);
+    width: 2px;
+    margin: 0 2rem 0;
+    height: 1.5rem;
+    display: block;
+  }
+
+  &Button {
+    background-color: #fff;
+    color: #000;
+    border-radius: 9999px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: scale 0.3s ease-in-out;
+    transform: scale(1);
+    line-height: 2;
+    font-weight: bold;
+    margin: 0  0  0 1.5rem;
+  }
+
+  & > Button:hover {
+    transform: scale(1.1);
+    background-color: #dbdbdb;
+  }
+
+  &Links {
+    display: flex;
+    align-items: center;
+    & > ul:last-of-type {
+      margin: 0 1rem 0 0;
+    }
+    & > li {
+      margin: 0 .3rem;
+
+      & > a {
+        display: flex;
+        text-decoration: none;
+        color: var(--color-text);
+        font-size: 1rem;
+        font-weight: 700;
+        align-items: center;
+        transition:
+          transform 0.15s ease-in-out,
+          color 0.5s ease-in-out;
+        transform: scale(1);
+
+        & > img {
+          margin: 0 0.5rem 0 0;
+        }
+      }
+
+      & > a:hover {
+        transform: scale(1.05);
+        color: #fff;
+      }
+    }
+
+    & > li:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

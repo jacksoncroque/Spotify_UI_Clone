@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  background-color: #000;
+
+  &Wrapper {
+    display: flex;
+  }
+
+}
