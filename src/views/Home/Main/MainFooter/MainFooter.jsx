@@ -1,0 +1,44 @@
+import styles from "./mainFooter.module.scss";
+const MainFooter = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.containerInfo}>
+        <div className={styles.containerInfoMain}>
+          <a href="/">Empresa</a>
+          <a href="/">Sobre</a>
+          <a href="/">Empregos</a>
+          <a href="/">For the Record</a>
+        </div>
+
+        <div className={styles.containerInfoMain}>
+          <a href="/">Comunidades</a>
+          <a href="/">Para Artistas</a>
+          <a href="/">Desenvolvedores</a>
+          <a href="/">Publicidade</a>
+          <a href="/">Investidores</a>
+          <a href="/">Fornecedores</a>
+        </div>
+
+        <div className={styles.containerInfoMain}>
+          <a href="/">Links úteis</a>
+          <a href="/">Suporte</a>
+          <a href="/">Aplicativo móvel grátis</a>
+          <a href="/">Popular por país</a>
+          <a href="/">Importar suas músicas</a>
+        </div>
+
+        <div className={styles.containerInfoMain}>
+          <a href="/">Planos do Spotify</a>
+          <a href="/">Premium Individual</a>
+          <a href="/">Premium Duo</a>
+          <a href="/">Premium Família</a>
+          <a href="/">Premium Universitário</a>
+          <a href="/">Spotify Free</a>
+        </div>
+      </div>
+      <div className={styles.containerIcons}></div>
+    </div>
+  );
+};
+
+export default MainFooter;

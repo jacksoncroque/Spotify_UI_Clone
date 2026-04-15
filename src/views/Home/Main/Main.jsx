@@ -2,6 +2,8 @@ import styles from "./main.module.scss";
 import Popular from "./Popular/Popular";
 import Music from "./Music/Music";
 import Chart from "./Chart/Chart";
+import MainFooter from "./MainFooter/MainFooter";
+
 
 const populars = [
   {
@@ -169,6 +171,9 @@ const Main = () => {
         </div>
         <div className={styles.containerMainCharts}>
           <Chart charts={charts} />
+        </div>
+        <div className={styles.containerMainFooter}>
+          <MainFooter />
         </div>
       </div>
     </div>
