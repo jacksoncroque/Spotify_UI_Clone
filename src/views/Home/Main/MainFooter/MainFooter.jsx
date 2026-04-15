@@ -1,4 +1,9 @@
 import styles from "./mainFooter.module.scss";
+
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
 const MainFooter = () => {
   return (
     <div className={styles.container}>
@@ -36,7 +41,17 @@ const MainFooter = () => {
           <a href="/">Spotify Free</a>
         </div>
       </div>
-      <div className={styles.containerIcons}></div>
+      <div className={styles.containerIcons}>
+        <a href="/">
+          <FaInstagram className={styles.containerIconsButton} />
+        </a>
+        <a href="/">
+          <FaTwitter className={styles.containerIconsButton} />
+        </a>
+        <a href="/">
+          <FaFacebook className={styles.containerIconsButton} />
+        </a>
+      </div>
     </div>
   );
 };

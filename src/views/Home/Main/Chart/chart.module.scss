@@ -1,6 +1,7 @@
 .container {
   &Main {
     width: calc(100% + 5rem);
+    margin: 0 0 3rem;
     &Swipper {
       transform: translateX(-.8rem);
     }
