@@ -66,3 +66,11 @@
     }
   }
 }
+
+.subContainer {
+  &Date {
+    color: var(--color-text) ;
+    font-size: .875rem;
+    padding: 2.5rem 0 2rem;
+  }
+}

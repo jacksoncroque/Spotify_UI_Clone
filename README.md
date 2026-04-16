@@ -2,9 +2,14 @@
 
 Replica da interface do Spotify focada em fidelidade visual, componentização e experiência do usuário.
 
+## Original
+
+![preview](./docs/spotify_original_base.png)  
+![preview](./docs/spotify_original_scrolled_base.png)
+
 ## Preview
 
-![Preview](./docs/spotify_ui_clone.png)
+![Preview](./docs/spotify_ui_clone.png)  
 ![Preview](./docs/spotify_ui_clone_scrolled.png)
 
 ## Demo
