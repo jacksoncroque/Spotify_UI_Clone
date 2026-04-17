@@ -3,6 +3,8 @@ import styles from "./popular.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
+import { FaPlay } from "react-icons/fa";
+
 const Popular = ({ populars }) => {
   return (
     <div className={styles.container}>
@@ -24,6 +26,11 @@ const Popular = ({ populars }) => {
                   <img src={item.url} alt="Imagem do Artista" />
                   <h3>{item.name}</h3>
                   <p>Artista</p>
+                  <div className={styles.containerMainImagePlay}>
+                    <a href="/">
+                      <FaPlay />
+                    </a>
+                  </div>
                 </div>
               </SwiperSlide>
             );

@@ -2,6 +2,7 @@ import styles from "./chart.module.scss";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { FaPlay } from "react-icons/fa";
 
 const Chart = ({ charts }) => {
   return (
@@ -23,6 +24,12 @@ const Chart = ({ charts }) => {
                 <div className={styles.containerMainImage}>
                   <img src={item.url} alt="Capa da Playlist" />
                   <p>{item.name}</p>
+
+                  <div className={styles.containerMainImagePlay}>
+                    <a href="/">
+                      <FaPlay />
+                    </a>
+                  </div>
                 </div>
               </SwiperSlide>
             );

@@ -3,6 +3,8 @@ import styles from "./music.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
+import { FaPlay } from "react-icons/fa";
+
 const Music = ({ musics }) => {
   return (
     <div className={styles.container}>
@@ -32,6 +34,11 @@ const Music = ({ musics }) => {
                         </span>
                       );
                     })}
+                  </div>
+                  <div className={styles.containerMainImagePlay}>
+                    <a href="/">
+                      <FaPlay />
+                    </a>
                   </div>
                 </div>
               </SwiperSlide>

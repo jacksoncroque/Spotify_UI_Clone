@@ -77,3 +77,34 @@
   width: 12.25rem !important;
   overflow: hidden;
 }
+
+.containerMainImage:hover .containerMainImagePlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.containerMainImagePlay {
+  position: absolute;
+  right: 10%;
+  top: 45%;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.3s;
+
+  & > a {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.25rem;
+    height: 3.25rem;
+    background-color: #1ed760;
+    border-radius: 100%;
+    box-shadow:
+      rgba(0, 0, 0, 0.09) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+}
