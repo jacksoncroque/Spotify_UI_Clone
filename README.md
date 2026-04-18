@@ -4,17 +4,11 @@ Replica da interface do Spotify focada em fidelidade visual, componentização e
 
 ## Original
 
-![preview](./docs/spotify_original_base.png)  
-![preview](./docs/spotify_original_scrolled_base.png)
+![Preview](./docs/spotify_original_demo.gif)
 
-## Preview
+## Clone
 
-![Preview](./docs/spotify_ui_clone.png)  
-![Preview](./docs/spotify_ui_clone_scrolled.png)
-
-## Demo
-
-![preview](./docs/demo.gif)
+![Preview](./docs/spotify_ui_clone_demo.gif)
 
 ## Tecnologias
 
